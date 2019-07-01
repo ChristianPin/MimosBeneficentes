@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/03/2019, 13:10:55
+    Author     : cyms8
+*/
+
+/* barra de navegação */
+nav.navbar-barra{
+    background: #fff;
+}
+div.navbar-entrar{
+    background: #000;
+    width: 100%;
+    border-radius: 0px;
+    text-align: right;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 5px;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #bbdefb;
+}
+.navbar-header{
+    float: none;
+    text-align: center;
+    padding: 15px 0px;
+}
+.navbar-brand{
+    padding: 5px 15px;
+}
+.img-logo{
+    height: 51px;
+    width: 230px;
+    display: block;
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+}
+#img-doa{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    max-height: 150px;
+    width: 70%;
+}
+.menu-cliente{
+    float: none;
+    text-align: center;
+}
+.menu-cliente li{
+    display: inline-block;
+    float: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.navbar-default .menu-cliente>li>a {
+    color: #000;
+}
+.navbar-default .menu-cliente>li>a:hover {
+    background-color: #ffcdd2;
+}
+
+.img-logo{
+    height: 51px;
+    width: 230px;
+    display: block;
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+}
+#img-doa{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    max-height: 150px;
+    width: 70%;
+}
+.menu-cliente{
+    float: none;
+    text-align: center;
+}
+.menu-cliente li{
+    display: inline-block;
+    float: none;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.navbar-default .menu-cliente>li>a {
+    color: #000;
+}
+.navbar-default .menu-cliente>li>a:hover {
+    background-color: #ffcdd2;
+}
+
+/*-- carousel --*/
+.fixedHeightImg > img{
+    margin-top: 10.7%;
+    max-height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+/*-- rodapé --*/
+footer{
+    background: #ccc;
+    padding: 30px 0px 30px 0px;
+    position: relative;
+}
+#rodape .img-logo{
+    text-align: center;
+    margin-top: 45px;
+}
+#rodape p{
+    text-align: center;
+    text-align: justify;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000;
+}
+#rodape h5{
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000;
+}
+#rodape li{
+    display: inline-block;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #000;
+}
+
+.blog{
+    background: url('../images/blogueiro.png') fixed;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: right;
+    object-fit: contain;
+}
+
+
+#look{
+    align-items: center;
+    height: 110vh;
+    text-align: right;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/*.desktop-nav {
+  background-color: #ecf0f1; }
+  .desktop-nav-item {
+    background: #ecf0f1; }
+    .desktop-nav-item:hover > .desktop-nav-link {
+      color: #3498db; }
+    .desktop-nav-item .desktop-nav-item {
+      border-bottom: 1px solid #d394c4;
+      border-left: 1px solid #d394c4;
+      border-right: 1px solid #d394c4; }
+      .desktop-nav-item .desktop-nav-item:first-child {
+        border-top: 1px solid #d394c4; }
+      .desktop-nav-item .desktop-nav-item:last-child {
+        border-bottom: 1px solid #d394c4; }
+      .desktop-nav-item .desktop-nav-item:hover {
+        background-color: #3498db; }
+      .desktop-nav-item .desktop-nav-item:hover > .desktop-nav-link {
+        color: #ecf0f1; }
+  .desktop-nav-item.selected > .desktop-nav-link {
+    color: #3498db;
+    font-weight: bold; }
+  .desktop-nav-list {
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    -ms-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-color: #ecf0f1; }*/
+
+
+/*-- dropdown --*/
+.dropdown{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+li .dropdown{
+    position: absolute;
+    left: 0.1px;
+}
+
+li:hover .dropdown{
+    display: block;
+}
+
+.dropdown li a{
+    padding: 5px;
+    padding-left: 15px;
+    display: block;
+    right: 30px;
+    width: 150px;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    background-color: #fff; 
+    border-bottom: 1px solid #000; 
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.dropdown a:hover{
+    background-color: #ffcdd2;
+    color: #555;
+}
+
+/*-- drop de acess --*/
+#menu2 .dropdown{
+    position: absolute;
+    left: 0.1px;
+}
+
+#menu2 :hover .dropdown{
+    display: block;
+}
+
+.dropdown #m2{
+    padding: 5px;
+    padding-left: 15px;
+    display: block;
+    right: 30px;
+    width: 170px;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    background-color: #fff; 
+    border-bottom: 1px solid #000; 
+
+}
+
+.dropdown #m2:hover{
+    background-color: #ffcdd2;
+    color: #555;
+}
+
+
+#form-container{
+    display: block;
+
+    margin-top:8%;
+    margin-left:15%;
+    margin-right:15%;
+
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #265a88;
+}
+
+
+
+
+
+#service-thumb {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 42px 22px;
+    cursor: grabbing;
+    position: relative;
+    top: 0;
+    margin-top: 13.9%;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+#service-thumb:hover {
+    background: #2b2b2b;
+    top: -5px;
+}
+
+
+#service-thumb:hover h4,
+#service-thumb:hover p{
+    color: #ffffff;
+}
+
+#service-thumb h4 {
+    padding-bottom: 5px;
+}
+
+#service-thumb a{
+    color: #2b2b2b;
+}
+
+
+
+#bg-grey #fa {
+    color: #ffffff;
+}
+
+#service{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/04/2019, 19:23:13
+    Author     : chris
+*/
+
+body{
+    background-color: #000;
+}
+
+.btna{
+    margin-bottom: 8px;
+    letter-spacing: 0.07em;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 120px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-preto{
+    background: #fff;
+    color: #000;
+}
+.btn-preto:hover{
+    background-color: #ce8483;
+    color: #fff;
+}
+
+.botoes{
+    margin-top: 2%;
+}
+
+.t{
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px #a94442;
+    font-size: 35px;
+}
+
+.tit{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tit1{
+    text-transform: uppercase;
+    color: #ffcdd2;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.img-ins1{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 15px 10px 0;
+    height: 300px;
+    width: 48%;
+    display: block;
+    
+    background: url('../images/insti.jpg') no-repeat;
+}
+
+.img-ins2{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 15px 10px 0;
+    height: 300px;
+    width: 48%;
+    display: block;
+    background: url('../images/insti2.jpg') no-repeat;
+}
+
+#text{
+    font-weight: bold;
+    text-align: justify;
+    font-size: 15px;
+}
+
+html, body, .inst-container{
+    scroll-behavior: smooth;
+    margin-top:13%;
+    text-align: center;
+}
+
+.listinst-container{
+    color: #fff;
+    margin-top: 18%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom:3%;
+}

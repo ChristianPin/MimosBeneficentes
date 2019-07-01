@@ -1,0 +1,397 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/04/2019, 20:41:48
+    Author     : samar
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+/* ------------------- HOME ------------------- */
+/* barra de navegação */
+nav.navbar-barra{
+    background: #fff;
+}
+div.navbar-topo{
+    background: #000;
+    width: 100%;
+    border-radius: 0px;
+    text-align: right;
+    padding: 5px;
+    color: #fff;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #bbdefb;
+}
+.navbar-header{
+    float: none;
+    text-align: center;
+    padding: 15px 0px;
+}
+.navbar-brand{
+    padding: 5px 15px;
+}
+.img-logo{
+    height: 51px;
+    width: 230px;
+    display: block;
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+}
+.menu-adm{
+    float: none;
+    text-align: center;
+}
+.menu-adm li{
+    display: inline-block;
+    float: none;
+}
+.navbar-default .menu-adm>li>a {
+    color: #000;
+}
+.navbar-default .menu-adm>li>a:hover {
+    background-color: #ffcdd2;
+}
+
+#img1 {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    position:relative; 
+    top: 35%;
+    left: 2%;
+    margin-top: 240px;
+    margin-left: 180px;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+#img1:hover {
+    max-width: 350px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#img2 {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    position:relative; 
+    top: 35%;
+    left: 8%;
+    margin-top: 240px;
+    margin-left: 128px;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+#img2:hover {
+    max-width: 350px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#img3 {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    position:relative; 
+    top: 35%;
+    left: 11%;
+    margin-top: 240px;
+    margin-left: 190px;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+#img3:hover {
+    max-width: 350px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#textinhos1{
+    top: 20%;
+    left: 2%;
+    margin-top: 15px;
+    margin-left: 120px;
+    position: relative;
+    text-align: center;
+    display: inline;
+    font-family: 'Patua One', cursive;
+
+}
+
+#textinhos2{
+    top: 20%;
+    left: 4%;
+    margin-top: 15px;
+    margin-left: 160px;
+    position: relative;
+    text-align: center;
+    display: inline;
+    font-family: 'Patua One', cursive;
+
+}
+
+#textinhos3{
+    top: 20%;
+    left: 4%;
+    margin-top: 15px;
+    margin-left: 230px;
+    position: relative;
+    text-align: center;
+    display: inline;
+    font-family: 'Patua One', cursive;
+
+}
+
+
+
+#loginho{
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    position:absolute; 
+    top:150px; 
+    left:300px;
+
+}
+
+#loginho2{
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    position:absolute; 
+    top:150px; 
+    left:700px;
+
+}
+
+.bt1 {
+    width: 200px;
+    height: 50px;
+    background: #000000;
+    border-radius: 8px;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 18px 32px;
+    left:5%;
+    margin-top: 8px;
+    margin-left: 180px;
+    text-transform: uppercase;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+.bt2 {
+    width: 200px;
+    height: 50px;
+    background: #000000;
+    border-radius: 8px;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 18px 32px;
+    left:2%;
+    margin-top: 8px;
+    margin-left: 180px;
+    text-transform: uppercase;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+.bt3 {
+    width: 200px;
+    height: 50px;
+    background: #000000;
+    border-radius: 8px;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 18px 32px;
+    left:2%;
+    margin-top: 8px;
+    margin-left: 180px;
+    text-transform: uppercase;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+.bt1:focus,
+.bt1:hover {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.bt2:focus,
+.bt2:hover {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.bt3:focus,
+.bt3:hover {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+}
+
+/*-- dropdown --*/
+.dropdown{
+    display: none;
+}
+
+li:hover .dropdown{
+    display: block;
+}
+
+#l1:hover .dropdown{
+    display: block;
+}
+
+li .dropdown{
+    position: absolute;
+}
+
+#l1 .dropdown{
+    position: absolute;
+}
+
+.dropdown{
+    top: 100%;
+    left: -34%;
+}
+
+.dropdown li #l1{
+    top: 100%;
+    left: 500%; 
+}
+
+.dropdown a{
+    padding: 5px;
+    display: block;
+    width: 126px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background-color: #fff; 
+}
+
+.dropdown #a1{
+    padding: 5px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background-color: #fff; 
+}
+
+.dropdown a:hover{
+    background-color: #ffcdd2;
+    color: #555;
+}
+
+.dropdown #a1:hover{
+    background-color: #ffcdd2;
+    color: #555;
+}
+
+
+
+
+
+
+#form-container{
+    display: block;
+
+    margin-top:8%;
+    margin-left:15%;
+    margin-right:15%;
+
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #265a88;
+}
+
+
+
+
+
+#service-thumb {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 42px 22px;
+    cursor: grabbing;
+    position: relative;
+    top: 0;
+    margin-top: 13.9%;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    border-radius: 10px;
+}
+
+#service-thumb:hover {
+    background: #2b2b2b;
+    top: -5px;
+}
+
+
+#service-thumb:hover h4,
+#service-thumb:hover p{
+    color: #ffffff;
+}
+
+#service-thumb h4 {
+    padding-bottom: 5px;
+}
+
+#service-thumb a{
+    color: #2b2b2b;
+}
+
+
+
+#bg-grey #fa {
+    color: #ffffff;
+}
+
+#service{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

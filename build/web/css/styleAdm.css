@@ -1,0 +1,174 @@
+html, body, .servicos{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('../img/capaAdm.png');
+    background-size: 100% 100%;
+}
+
+
+/* ------------------- LETRAS ------------------- */
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+    letter-spacing: 0.06em;
+    text-shadow: 2px 2px 2px #000;
+}
+h3{
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+    text-align: center;
+}
+
+/* ------------------- BOTÕES ------------------- */
+.btn-adm{
+    letter-spacing: 0.07em;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 500px;
+    padding: 10px 35px;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+.btn-rosa{
+    color: #000;
+    background-color: #ffcdd2;
+}
+.btn-rosa:hover{
+    color: #000;
+    background-color: #fff;
+}
+.btn-azul{
+    color: #000;
+    background-color: #bbdefb;
+}
+.btn-azul:hover{
+    color: #000;
+    background-color: #fff;
+}
+.btn-preto{
+    background: #000;
+    color: #fff;
+    margin: 10px 30px;
+}
+.btn-preto:hover{
+    background-color: #fff;
+    color: #000;
+}
+.botoesPretos{
+    text-align: center;
+}
+.btn-pr{
+    background: #000;
+    color: #fff;
+    margin: 10px 30px;
+}
+.btn-pr:hover{
+    background-color: #ffcdd2;
+    color: #000;
+}
+
+/* ------------------- HOME ------------------- */
+/* barra de navegação */
+nav.navbar-barra{
+    background: #fff;
+}
+div.navbar-topo{
+    background: #000;
+    width: 100%;
+    border-radius: 0px;
+    text-align: right;
+    padding: 5px;
+    color: #fff;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #bbdefb;
+}
+.navbar-header{
+    float: none;
+    text-align: center;
+    padding: 15px 0px;
+}
+.navbar-brand{
+    padding: 5px 15px;
+}
+.img-logo{
+    height: 51px;
+    width: 230px;
+    display: block;
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+}
+.menu-adm{
+    float: none;
+    text-align: center;
+}
+.menu-adm li{
+    display: inline-block;
+    float: none;
+}
+.navbar-default .menu-adm>li>a {
+    color: #000;
+}
+.navbar-default .menu-adm>li>a:hover {
+    background-color: #bbdefb;
+}
+
+/* ------------------- PRODUTOS e INSTITUIÇÕES ------------------- */
+/* serviços */
+.servicos{
+    display: table;
+    width: 100%;
+}
+.texto-servicos{
+    text-align: center;
+    color: #000;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* cadastrar produto e instituição*/
+#cad{
+    background: #bbdefb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* listar produto e instituição*/
+#lista{
+    margin-top: 200px;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* exluir instituição */
+#excl{
+    margin-top: 200px;
+    background: #bbdefb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#doacao{
+    margin-top: 200px;
+    background: #bbdefb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#pedidos{
+    margin-top: 200px;
+    background: #bbdefb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

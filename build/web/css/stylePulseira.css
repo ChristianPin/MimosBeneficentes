@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/04/2019, 20:41:48
+    Author     : samar
+*/
+
+/* ------------------- HOME ------------------- */
+/* barra de navegação */
+nav.navbar-barra{
+    background: #fff;
+}
+div.navbar-topo{
+    background: #000;
+    width: 100%;
+    border-radius: 0px;
+    text-align: right;
+    padding: 5px;
+    color: #fff;
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #bbdefb;
+}
+.navbar-header{
+    float: none;
+    text-align: center;
+    padding: 15px 0px;
+}
+.navbar-brand{
+    padding: 5px 15px;
+}
+.img-logo{
+    height: 51px;
+    width: 230px;
+    display: block;
+    background: url('img/logo.png') no-repeat;
+    background-size: contain;
+}
+.menu-adm{
+    float: none;
+    text-align: center;
+}
+.menu-adm li{
+    display: inline-block;
+    float: none;
+}
+.navbar-default .menu-adm>li>a {
+    color: #000;
+}
+.navbar-default .menu-adm>li>a:hover {
+    background-color: #ffcdd2;
+}
+
+#ace2{
+    width: 199px;
+    height: 199px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    margin-top: -17px;
+    margin-left: -150px;
+}
+
+#ace10{
+    width: 199px;
+    height: 199px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    margin-top: -17px;
+    margin-left: 170px;
+}
+
+#ace11{
+    width: 199px;
+    height: 199px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    margin-top: -17px;
+    margin-left: 500px;
+}
+
+#ace12{
+    width: 199px;
+    height: 199px;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    margin-top: -17px;
+    margin-left: -150px;
+}
